@@ -20,5 +20,5 @@ const person = {
     hobbies:["guiter","sleeping","listening music"]
 }
 
-person["key] = "shadab@123gmail.com";
+person[key] = "shadab@123gmail.com";
 console.log(person)
