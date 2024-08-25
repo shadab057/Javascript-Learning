@@ -14,12 +14,12 @@ const numbers = [4,2,5,8];
 //     console.log(number*3, index);
 // })
 
-const users = [
-    {firstName: "harshit", age: 23},
-    {firstName: "mohit", age: 21},
-    {firstName: "nitish", age: 22},
-    {firstName: "garima", age: 20},
-]
+// const users = [
+//     {firstName: "harshit", age: 23},
+//     {firstName: "mohit", age: 21},
+//     {firstName: "nitish", age: 22},
+//     {firstName: "garima", age: 20},
+// ]
 
 // users.forEach(function(user){
 //     console.log(user.firstName);
