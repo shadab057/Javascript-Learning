@@ -1,16 +1,33 @@
-// reduce
+// // reduce
 
-const numbers = [1,2,3,4,5];
+// const numbers = [1,2,3,4,5];
 
-// aim: sum of all the numbers in array
+// // aim: sum of all the numbers in array
 
- const sum = numbers.reduce((accumulator,currentValue)=>{
-return accumulator + currentValue ;
-});
-console.log(sum)
+//  const sum = numbers.reduce((accumulator,currentValue)=>{
+// return accumulator + currentValue ;
+// });
+// console.log(sum)
 
 // accumulator   ,   currentValue    return 
 //   1                  2               3 
 //   3                   3              6  
 //   6                    4              10
 //  10                     5             15
+
+const userCart = [
+    {productId: 1, productName: "mobile", price: 12000},
+    {productId: 2, productName: "laptop", price: 22000},
+    {productId: 3, productName: "tv", price: 22000}
+]
+
+const totalAmout = userCart.reduce((totalPrice, currentProduct)=>{
+    return totalPrice + currentProduct.price;
+}, 0)
+
+console.log(totalAmout);
+
+// Total price         currentValue        return
+//  0                           {}           12000
+//  12000                      22000          34000
+// 340000                      15000           49000
